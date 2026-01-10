@@ -16,7 +16,7 @@ function App() {
    <div className="font-sans">
       <Navigation />
       <Hero />
-    <About />
+      <About />
       <Projects />
       <Contact />
     </div>

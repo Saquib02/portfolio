@@ -17,7 +17,7 @@ const Navigation = () => {
     <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? 'bg-slate-900/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'}`}>
       <div className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
-          <a href="#home" className="text-2xl font-bold text-white">Saquib</a>
+          <a href="#home" className="text-2xl font-bold text-white">Saquib Mohammad</a>
           
           <div className="hidden md:flex gap-8">
             {navLinks.map((link) => (
