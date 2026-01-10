@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { ChevronDown } from "lucide-react";
+import resumePDF from "../assets/Mohammad Saquib Resume.pdf";
 
 // Hero Component
 const Hero = () => {
@@ -32,6 +33,13 @@ const Hero = () => {
           </a>
           <a href="#contact" className="border-2 border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white px-8 py-3 rounded-full font-semibold transition-all duration-300">
             Get In Touch
+          </a>
+          <a 
+            href={resumePDF} 
+            download="Mohammad_Saquib_Resume.pdf"
+            className="border-2 border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white px-8 py-3 rounded-full font-semibold transition-all duration-300"
+          >
+            Download CV
           </a>
         </div>
       </div>
