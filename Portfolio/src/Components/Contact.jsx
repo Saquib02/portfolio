@@ -28,17 +28,17 @@ const Contact = () => {
             </p>
             
             <div className="space-y-4">
-              <a href="mailto:saquib@example.com" className="flex items-center gap-4 text-purple-400 hover:text-purple-300 transition-colors">
+              <a href="mailto:mohammadsaquib194@gmail.com" className="flex items-center gap-4 text-purple-400 hover:text-purple-300 transition-colors">
                 <Mail size={24} />
-                <span className="text-lg">saquib@example.com</span>
+                <span className="text-lg">mohammadsaquib194@gmail.com</span>
               </a>
-              <a href="https://github.com/saquib" className="flex items-center gap-4 text-purple-400 hover:text-purple-300 transition-colors">
+              <a href="https://github.com/Saquib002" className="flex items-center gap-4 text-purple-400 hover:text-purple-300 transition-colors">
                 <Github size={24} />
-                <span className="text-lg">github.com/saquib</span>
+                <span className="text-lg">github.com/saquib002</span>
               </a>
-              <a href="https://linkedin.com/in/saquib" className="flex items-center gap-4 text-purple-400 hover:text-purple-300 transition-colors">
+              <a href="https://linkedin.com/in/saquib-mohammad" className="flex items-center gap-4 text-purple-400 hover:text-purple-300 transition-colors">
                 <Linkedin size={24} />
-                <span className="text-lg">linkedin.com/in/saquib</span>
+                <span className="text-lg">linkedin.com/in/saquib-mohammad</span>
               </a>
             </div>
           </div>
