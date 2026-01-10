@@ -3,10 +3,10 @@
 const About = () => {
   const skills = [
     { name: 'React & Next.js', level: 90 },
-    { name: 'Node.js & Express', level: 85 },
+    { name: 'ASP.Net & C#', level: 95 },
+    { name: 'SQL Server , PostGreSQL & MongoDB', level: 75 },
     { name: 'UI/UX Design', level: 80 },
-    { name: 'TypeScript', level: 85 },
-    { name: 'MongoDB & SQL', level: 75 },
+    { name: 'JavaScript', level: 85 },
     { name: 'Tailwind CSS', level: 95 }
   ];
 

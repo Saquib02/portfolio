@@ -14,8 +14,13 @@ const Hero = () => {
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC4wNSI+PHBhdGggZD0iTTM2IDM0djJoLTJ2LTJoMnptMC00djJoLTJ2LTJoMnptLTQgNHYyaC0ydi0yaDJ6bTAtNHYyaC0ydi0yaDJ6bS00IDR2MmgtMnYtMmgyek0yOCAzMHYyaC0ydi0yaDJ6Ii8+PC9nPjwvZz48L3N2Zz4=')] opacity-20"></div>
       
       <div className={`container mx-auto px-6 text-center relative z-10 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-        <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
-          Saquib
+        <h1 className="animated-name text-6xl md:text-8xl font-bold mb-6">
+          <span className="animated-letter" data-letter="S">S</span>
+          <span className="animated-letter" data-letter="a">a</span>
+          <span className="animated-letter" data-letter="q">q</span>
+          <span className="animated-letter" data-letter="u">u</span>
+          <span className="animated-letter" data-letter="i">i</span>
+          <span className="animated-letter" data-letter="b">b</span>
         </h1>
         <p className="text-2xl md:text-4xl mb-8 text-purple-200">Full Stack Developer & Designer</p>
         <p className="text-lg md:text-xl mb-12 text-gray-300 max-w-2xl mx-auto">
